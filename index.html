@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <button id="darkBtn"> 🌙</button>
+        <h1> Temperature Converter </h1>
+
+        <label for="tempUnit" class="classLabel"> Choose temperature unit: </label>
+        <select name="tempUnit" id="tempUnit">
+            <option value="Celsius" id="c"> Celsius</option>
+            <option value="Fahrenheit" id="f"> Fahrenheit</option>
+            <option value="Kelvin" id="k"> Kelvin</option>
+        </select><br>
+
+        <label for="tempValue"> Temperature:
+            <input id="tempValue" placeholder="Enter temperature">
+        </label><br>
+
+        <label for="tempConvert" class="classLabel">Choose unit for conversion:</label>
+        <select name="tempConvert" id="tempConvert">
+            <option value="Celsius" id="cConvert"> Celsius</option>
+            <option value="Fahrenheit" id="fConvert"> Fahrenheit</option>
+            <option value="Kelvin" id="kConvert"> Kelvin</option>
+        </select><br>
+        <span id="result"></span><br>
+        <button onclick="submitter()" id="submit">Convert</button>
+        <span id="design">Made By Rene </span>
+    </div>
+
+
+
+</body>
+
+</html>

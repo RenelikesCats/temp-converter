@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#container {
+
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+select,input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 95%;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4fe460;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #37f502;
+    cursor: pointer;
+}
+
+#result {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+#design {
+    float: left;
+    opacity: 0.33;
+    font-size: smaller;
+    margin-top: 12px;
+
+}
+
+#darkBtn {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid rgba(35, 35, 35, 0.305);
+    padding: 4px 25px;
+    padding-bottom: 10px;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    opacity: 0.8;
+
+}
+
+.darkBtnClass {
+    background-color: #141519;
+}
+
+.dark {
+    background-color: #222831;
+}
+
+.darkContainer {
+    background-color: #76ABAE;
+
+}
+
+@media screen and (max-width:768px) {
+    body {
+        align-items: start;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
